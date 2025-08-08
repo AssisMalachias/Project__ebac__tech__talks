@@ -2,6 +2,7 @@
 @use '_variable'as v;
 @use 'components/infosbar';
 @use 'components/buttons';
+@use '_event';
 
 *{
     margin:0;
@@ -9,6 +10,7 @@
     box-sizing:border-box;
     font-family:"Roboto",sans-serif;
     color:v.$corPrimeiroparagrafo;
+    //background-color:green;
     list-style:none;
 }
 
