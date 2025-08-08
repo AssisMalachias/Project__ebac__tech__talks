@@ -1,13 +1,15 @@
 @use '_hero';
 @use '_variable'as v;
+@use 'components/infosbar';
+@use 'components/buttons';
 
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
     font-family:"Roboto",sans-serif;
-    background-color:green;
     color:v.$corPrimeiroparagrafo;
+    list-style:none;
 }
 
 .container {
