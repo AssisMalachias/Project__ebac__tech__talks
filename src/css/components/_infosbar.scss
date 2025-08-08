@@ -1,6 +1,7 @@
+@use '../_variable'as v;
 .infos-bar {
     padding:16px 24px;
-    background-color:#fff;
+    background-color:v.$corPrimeiroparagrafo;
     display:flex;
     justify-content: space-between;
   
@@ -11,12 +12,12 @@
 
          &__item {
             font-size:14px;
-            color: #000;
+            color:v.$corSegundoparagrafo;
 
             b {
                 font-size: 18px;
                 display:block;
-                 color: #000;
+                 color:v.$corSegundoparagrafo;
             }
          }
     }
